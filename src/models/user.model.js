@@ -31,7 +31,7 @@ const userSchema = new Schema(
             required : true,
         },
         coverImage : {
-            type : String, //cloudnary service used
+            type : String //cloudnary service used
         },
         watchHistory : [
             {
